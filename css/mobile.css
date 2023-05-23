@@ -1,0 +1,152 @@
+@media (max-width: 800px) {
+
+  /* navigations stylings */
+  .nav-content {
+    display: none;
+  }
+
+  .nav-toggle {
+    display: block;
+    color: #fff;
+    font-size: 25px;
+  }
+
+  .sub-header::after {
+    left: 0 !important;
+  }
+
+  /* hero stylings */
+  .hero-content {
+    max-width: 500px;
+    margin: auto !important;
+    left: 5%;
+    right: 5%;
+  }
+
+  /* about stylings */
+  #about{
+    padding: 2rem 0 5rem;
+  }
+  #about .text-side {
+    padding-left: 1rem;
+  }
+
+  #about .image-side {
+    padding: 1rem 1rem 0;
+  }
+
+  #about .image-side img {
+    margin: 0;
+    border: none;
+  }
+
+  #about .text-side p {
+    max-width: 100%;
+  }
+
+  .flex {
+    display: block;
+  }
+
+  /* gallery stylings */
+  .gallery-flex {
+    display: block;
+  }
+
+  .gallery-content-border {
+    height: 780px;
+  }
+
+  .gallery-slider {
+    position: absolute;
+    top: 1rem;
+  }
+
+  .gallery-grid {
+    gap: 0.5rem;
+  }
+
+  .grid-image {
+    height: 100%;
+  }
+
+  .d-none {
+    display: none;
+  }
+
+  .gallery-categories span {
+    margin-top: 0.6rem;
+  }
+
+  .grid-col-lg-rectangle-extend {
+    grid-row: span 3;
+  }
+
+  .grid-col-lg-slant-rectangle-extend {
+    grid-column: span 3;
+  }
+
+  /* testimonials styling */
+  .testimonial {
+    border-radius: 1rem;
+  }
+
+  #testimonials .image-side {
+    padding: 1rem;
+  }
+
+  #testimonials .image-side img {
+    border-radius: 1rem;
+  }
+
+  .subbed {
+    display: none;
+  }
+
+  .sub {
+    display: block;
+  }
+
+  /* footer stylings */
+  .form {
+    padding-top: 1rem !important;
+    padding: 0;
+  }
+
+  .contact {
+    padding-top: 2rem !important;
+    padding: 0;
+  }
+
+  .footer-nav ul {
+    display: block;
+  }
+
+  .footer-nav ul li {
+    margin: 1rem auto;
+  }
+}
+
+@media(max-width:680px) {
+  .gallery-content-border {
+    height: 720px;
+  }
+}
+
+@media(max-width:580px) {
+  .gallery-content-border {
+    height: 670px;
+  }
+}
+
+@media(max-width:418px) {
+  .gallery-content-border {
+    height: 626px;
+  }
+}
+
+@media(max-width:330px) {
+  .gallery-content-border {
+    height: 578px;
+  }
+}
